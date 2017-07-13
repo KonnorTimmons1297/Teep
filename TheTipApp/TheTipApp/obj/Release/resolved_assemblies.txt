@@ -1,0 +1,14 @@
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\TheTipApp.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Java.Interop.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Microsoft.CSharp.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Mono.Android.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\mscorlib.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.Core.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.Xml.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.Xml.Linq.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Newtonsoft.Json.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Mono.CSharp.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\Mono.Security.dll
+C:\Users\konno\Desktop\Workbench\Programming\C#\Xamarin\TheTipApp\TheTipApp\obj\Release\android\assets\System.Numerics.dll
