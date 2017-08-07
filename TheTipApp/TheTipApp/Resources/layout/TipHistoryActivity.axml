@@ -10,7 +10,17 @@
         android:background="@color/colorPrimary"
         android:theme="@style/ToolbarStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tipHistoryTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Teep"
+            android:layout_gravity="center" />
+    </android.support.v7.widget.Toolbar>
 <!--This is for the Toolbar Only-->
     <ListView
         android:layout_width="match_parent"

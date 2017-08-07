@@ -1608,12 +1608,12 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f02004e;
     }
     public static final class id {
-        public static final int DeleteTipEntry=0x7f0b0079;
-        public static final int EditTipEntry=0x7f0b0078;
+        public static final int DeleteTipEntry=0x7f0b0078;
+        public static final int EditTipEntry=0x7f0b0077;
         public static final int RaitWaiterToolbar=0x7f0b005d;
         public static final int RestaurantTotalToolbar=0x7f0b0062;
         public static final int TipHistoryToolbar=0x7f0b0068;
-        public static final int TipTotalToolbar=0x7f0b0071;
+        public static final int TipTotalToolbar=0x7f0b0070;
         public static final int action0=0x7f0b0050;
         public static final int action_bar=0x7f0b0041;
         public static final int action_bar_activity_content=0x7f0b0000;
@@ -1645,10 +1645,10 @@ containing a value of this type.
         public static final int customPanel=0x7f0b0036;
         public static final int decor_content_parent=0x7f0b003f;
         public static final int default_activity_button=0x7f0b0027;
-        public static final int delete=0x7f0b0077;
+        public static final int delete=0x7f0b0076;
         public static final int disableHome=0x7f0b000c;
-        public static final int doneButton=0x7f0b0074;
-        public static final int edit=0x7f0b0076;
+        public static final int doneButton=0x7f0b0073;
+        public static final int edit=0x7f0b0075;
         public static final int edit_query=0x7f0b0043;
         public static final int end=0x7f0b0019;
         public static final int end_padder=0x7f0b005c;
@@ -1665,7 +1665,7 @@ containing a value of this type.
         public static final int listMode=0x7f0b0009;
         public static final int list_item=0x7f0b0028;
         public static final int media_actions=0x7f0b0053;
-        public static final int menu_edit=0x7f0b0075;
+        public static final int menu_edit=0x7f0b0074;
         public static final int middle=0x7f0b001a;
         public static final int multiply=0x7f0b0013;
         public static final int never=0x7f0b001e;
@@ -1695,11 +1695,9 @@ containing a value of this type.
         public static final int search_src_text=0x7f0b004a;
         public static final int search_voice_btn=0x7f0b004e;
         public static final int select_dialog_listview=0x7f0b004f;
-        public static final int selectedTipDate=0x7f0b0070;
         public static final int selectedTipTicketTotal=0x7f0b006f;
         public static final int selectedTipTipAmount=0x7f0b006e;
-        public static final int selectedTipToolbar=0x7f0b006a;
-        public static final int selectedTipWaiterName=0x7f0b006c;
+        public static final int selectedTipToolbar=0x7f0b006b;
         public static final int selectedTipWaiterRating=0x7f0b006d;
         public static final int shortcut=0x7f0b003a;
         public static final int showCustom=0x7f0b000f;
@@ -1718,13 +1716,14 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0b0034;
         public static final int textView1=0x7f0b005e;
         public static final int ticketTotal=0x7f0b0064;
-        public static final int ticketTotalAmt=0x7f0b0073;
+        public static final int ticketTotalAmt=0x7f0b0072;
         public static final int time=0x7f0b0056;
-        public static final int tipAmt=0x7f0b0072;
-        public static final int tipHistoryListView=0x7f0b0069;
+        public static final int tipAmt=0x7f0b0071;
+        public static final int tipHistoryListView=0x7f0b006a;
+        public static final int tipHistoryTitle=0x7f0b0069;
         public static final int title=0x7f0b002a;
         public static final int title_template=0x7f0b002f;
-        public static final int toolbar_title=0x7f0b006b;
+        public static final int toolbar_title=0x7f0b006c;
         public static final int topPanel=0x7f0b002e;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;

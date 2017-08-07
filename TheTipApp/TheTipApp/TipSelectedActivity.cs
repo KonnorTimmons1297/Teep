@@ -14,8 +14,6 @@ namespace TheTipApp
         private TextView waiterRatingCtrl;
         private TextView tipAmountCtrl;
         private TextView ticketTotalCtrl;
-        private TextView waiterNameCtrl;
-        private TextView tipDateCtrl;
         private Android.Support.V7.Widget.Toolbar toolbarCtrl;
 
         private DataFile<List<Tip>> df;
@@ -37,16 +35,16 @@ namespace TheTipApp
         {
             base.OnAttachedToWindow();
             SupportActionBar.SetDisplayShowTitleEnabled(false);
+
+            TextView restTitle = (TextView)toolbarCtrl.FindViewById(Resource.Id.toolbar_title);
+            restTitle.Text = selectedTip.RestaurantName;
         }
 
         private void DisplayTipInformation()
         {
-            waiterNameCtrl.Text = selectedTip.WaiterName;
             waiterRatingCtrl.Text = selectedTip.WaiterRating.ToString();
             ticketTotalCtrl.Text = selectedTip.TicketTotal.ToString();
             tipAmountCtrl.Text = selectedTip.TipAmt.ToString();
-
-            tipDateCtrl.Text = selectedTip.Date;
         }
 
         private void DeleteSelectedTip()
@@ -70,8 +68,6 @@ namespace TheTipApp
             waiterRatingCtrl = FindViewById<TextView>(Resource.Id.selectedTipWaiterRating);
             tipAmountCtrl = FindViewById<TextView>(Resource.Id.selectedTipTipAmount);
             ticketTotalCtrl = FindViewById<TextView>(Resource.Id.selectedTipTicketTotal);
-            waiterNameCtrl = FindViewById<TextView>(Resource.Id.selectedTipWaiterName);
-            tipDateCtrl = FindViewById<TextView>(Resource.Id.selectedTipDate);
             toolbarCtrl = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.selectedTipToolbar);
         }
 
@@ -95,9 +91,6 @@ namespace TheTipApp
         {
             SetSupportActionBar(toolbarCtrl);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
-
-            TextView restTitle = (TextView)toolbarCtrl.FindViewById(Resource.Id.toolbar_title);
-            restTitle.Text = selectedTip.RestaurantName;
         }
         #endregion Setup
 

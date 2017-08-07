@@ -9,6 +9,7 @@ using Android.Views;
 using static Android.Widget.AdapterView;
 using System.Threading.Tasks;
 using Android.Support.V7.App;
+using Android.Graphics;
 
 namespace TheTipApp
 {
@@ -79,11 +80,23 @@ namespace TheTipApp
         private void SetupActionBar()
         {
             SetSupportActionBar(toolbarCtrl);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
+
+            var title = (TextView)toolbarCtrl.FindViewById(Resource.Id.tipHistoryTitle);
+            Typeface tf = Typeface.CreateFromAsset(Assets, "Pacifico.ttf");
+            title.SetTypeface(tf, TypefaceStyle.Normal);
         }
 
         private void SetupTipAdapter()
         {
-            ArrayAdapter<Tip> tipAdapter = new ArrayAdapter<Tip>(this, Android.Resource.Layout.SimpleListItem1, TipList); //Populate the list view
+            var items = new string[TipList.Count];
+
+            for(var i = 0; i < TipList.Count; i++)
+            {
+                items[i] = TipList[i].RestaurantName + "(" + TipList[i].Date + ")";
+            }
+
+            ArrayAdapter<string> tipAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, items); //Populate the list view
             try
             {
                 TipListViewCtrl.Adapter = tipAdapter;
