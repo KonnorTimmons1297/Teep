@@ -36,7 +36,7 @@ namespace TheTipApp
         public override void OnAttachedToWindow()
         {
             base.OnAttachedToWindow();
-            SupportActionBar.Title = selectedTip.RestaurantName;
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
         }
 
         private void DisplayTipInformation()
@@ -46,10 +46,7 @@ namespace TheTipApp
             ticketTotalCtrl.Text = selectedTip.TicketTotal.ToString();
             tipAmountCtrl.Text = selectedTip.TipAmt.ToString();
 
-            if (selectedTip.Date != null || selectedTip.Date != "")
-                tipDateCtrl.Text = selectedTip.Date;
-            else
-                tipDateCtrl.Text = "N/A";
+            tipDateCtrl.Text = selectedTip.Date;
         }
 
         private void DeleteSelectedTip()
@@ -98,6 +95,9 @@ namespace TheTipApp
         {
             SetSupportActionBar(toolbarCtrl);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+
+            TextView restTitle = (TextView)toolbarCtrl.FindViewById(Resource.Id.toolbar_title);
+            restTitle.Text = selectedTip.RestaurantName;
         }
         #endregion Setup
 

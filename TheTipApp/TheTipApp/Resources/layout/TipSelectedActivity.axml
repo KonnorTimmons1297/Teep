@@ -5,13 +5,22 @@
     android:layout_height="match_parent"
     android:rowCount="11">
 <!--This is for the Toolbar Only-->
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/selectedTipToolbar"
-        android:minHeight="?android:attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        android:theme="@style/ToolbarStyle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/selectedTipToolbar"
+      android:minHeight="?android:attr/actionBarSize"
+      android:background="@color/colorPrimary"
+      android:theme="@style/ToolbarStyle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Toolbar Title"
+          android:layout_gravity="center"
+          android:id="@+id/toolbar_title" />
+
+  </android.support.v7.widget.Toolbar>
 <!--This is for the Toolbar Only-->
     <TextView
         android:text="@string/waiterNameTextView"
