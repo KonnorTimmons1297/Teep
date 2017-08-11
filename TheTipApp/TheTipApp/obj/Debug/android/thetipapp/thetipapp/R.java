@@ -1596,16 +1596,17 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020042;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020043;
         public static final int abc_textfield_search_material=0x7f020044;
-        public static final int ic_action_content_create=0x7f020045;
-        public static final int ic_action_content_save=0x7f020046;
-        public static final int ic_add_white_18dp=0x7f020047;
-        public static final int ic_close_white_24dp=0x7f020048;
-        public static final int ic_menu_copy_holo_dark=0x7f020049;
-        public static final int ic_menu_cut_holo_dark=0x7f02004a;
-        public static final int ic_menu_paste_holo_dark=0x7f02004b;
-        public static final int ic_menu_search_holo_dark=0x7f02004c;
-        public static final int icon=0x7f02004d;
-        public static final int notification_template_icon_bg=0x7f02004e;
+        public static final int android=0x7f020045;
+        public static final int ic_action_content_create=0x7f020046;
+        public static final int ic_action_content_save=0x7f020047;
+        public static final int ic_add_white_18dp=0x7f020048;
+        public static final int ic_close_white_24dp=0x7f020049;
+        public static final int ic_menu_copy_holo_dark=0x7f02004a;
+        public static final int ic_menu_cut_holo_dark=0x7f02004b;
+        public static final int ic_menu_paste_holo_dark=0x7f02004c;
+        public static final int ic_menu_search_holo_dark=0x7f02004d;
+        public static final int icon=0x7f02004e;
+        public static final int notification_template_icon_bg=0x7f02004f;
     }
     public static final class id {
         public static final int DeleteTipEntry=0x7f0b0078;
@@ -1678,6 +1679,7 @@ containing a value of this type.
         public static final int questTicketTextView=0x7f0b0063;
         public static final int radio=0x7f0b003b;
         public static final int rateWaiterBar=0x7f0b0060;
+        public static final int rateWaiterTitle=0x7f0b005e;
         public static final int restaurantName=0x7f0b0066;
         public static final int restaurantNameTextView=0x7f0b0065;
         public static final int screen=0x7f0b0014;
@@ -1714,7 +1716,6 @@ containing a value of this type.
         public static final int text=0x7f0b005a;
         public static final int text2=0x7f0b0058;
         public static final int textSpacerNoButtons=0x7f0b0034;
-        public static final int textView1=0x7f0b005e;
         public static final int ticketTotal=0x7f0b0064;
         public static final int ticketTotalAmt=0x7f0b0072;
         public static final int time=0x7f0b0056;

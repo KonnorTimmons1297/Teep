@@ -126,3 +126,8 @@ C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\uploadflags.txt
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\bin\Debug\TheTipApp.dll.mdb
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\android\assets\TheTipApp.dll.mdb
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable\android.png
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-hdpi\android.png
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-mdpi\android.png
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-xhdpi\android.png
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-xxhdpi\android.png

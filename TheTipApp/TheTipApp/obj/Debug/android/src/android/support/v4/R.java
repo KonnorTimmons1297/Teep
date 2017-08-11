@@ -1374,20 +1374,20 @@ containing a value of this type.
         public static int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f060007;
     }
     public static final class color {
-        public static int abc_background_cache_hint_selector_material_dark=0x7f0a003d;
-        public static int abc_background_cache_hint_selector_material_light=0x7f0a003e;
-        public static int abc_color_highlight_material=0x7f0a003f;
+        public static int abc_background_cache_hint_selector_material_dark=0x7f0a003e;
+        public static int abc_background_cache_hint_selector_material_light=0x7f0a003f;
+        public static int abc_color_highlight_material=0x7f0a0040;
         public static int abc_input_method_navigation_guard=0x7f0a0000;
-        public static int abc_primary_text_disable_only_material_dark=0x7f0a0040;
-        public static int abc_primary_text_disable_only_material_light=0x7f0a0041;
-        public static int abc_primary_text_material_dark=0x7f0a0042;
-        public static int abc_primary_text_material_light=0x7f0a0043;
-        public static int abc_search_url_text=0x7f0a0044;
+        public static int abc_primary_text_disable_only_material_dark=0x7f0a0041;
+        public static int abc_primary_text_disable_only_material_light=0x7f0a0042;
+        public static int abc_primary_text_material_dark=0x7f0a0043;
+        public static int abc_primary_text_material_light=0x7f0a0044;
+        public static int abc_search_url_text=0x7f0a0045;
         public static int abc_search_url_text_normal=0x7f0a0001;
         public static int abc_search_url_text_pressed=0x7f0a0002;
         public static int abc_search_url_text_selected=0x7f0a0003;
-        public static int abc_secondary_text_material_dark=0x7f0a0045;
-        public static int abc_secondary_text_material_light=0x7f0a0046;
+        public static int abc_secondary_text_material_dark=0x7f0a0046;
+        public static int abc_secondary_text_material_light=0x7f0a0047;
         public static int accent_material_dark=0x7f0a0004;
         public static int accent_material_light=0x7f0a0005;
         public static int background_floating_material_dark=0x7f0a0006;
@@ -1443,10 +1443,11 @@ containing a value of this type.
         public static int secondary_text_disabled_material_light=0x7f0a0035;
         public static int switch_thumb_disabled_material_dark=0x7f0a0036;
         public static int switch_thumb_disabled_material_light=0x7f0a0037;
-        public static int switch_thumb_material_dark=0x7f0a0047;
-        public static int switch_thumb_material_light=0x7f0a0048;
+        public static int switch_thumb_material_dark=0x7f0a0048;
+        public static int switch_thumb_material_light=0x7f0a0049;
         public static int switch_thumb_normal_material_dark=0x7f0a0038;
         public static int switch_thumb_normal_material_light=0x7f0a0039;
+        public static int toolbarOptionsMenuTextColor=0x7f0a003d;
     }
     public static final class dimen {
         public static int abc_action_bar_content_inset_material=0x7f07000d;
@@ -1694,12 +1695,10 @@ containing a value of this type.
         public static int search_src_text=0x7f0b004a;
         public static int search_voice_btn=0x7f0b004e;
         public static int select_dialog_listview=0x7f0b004f;
-        public static int selectedTipDate=0x7f0b006e;
-        public static int selectedTipTicketTotal=0x7f0b006d;
-        public static int selectedTipTipAmount=0x7f0b006c;
-        public static int selectedTipToolbar=0x7f0b006a;
-        public static int selectedTipWaiterName=0x7f0b006f;
-        public static int selectedTipWaiterRating=0x7f0b006b;
+        public static int selectedTipTicketTotal=0x7f0b006f;
+        public static int selectedTipTipAmount=0x7f0b006e;
+        public static int selectedTipToolbar=0x7f0b006b;
+        public static int selectedTipWaiterRating=0x7f0b006d;
         public static int shortcut=0x7f0b003a;
         public static int showCustom=0x7f0b000f;
         public static int showHome=0x7f0b0010;
@@ -1720,9 +1719,11 @@ containing a value of this type.
         public static int ticketTotalAmt=0x7f0b0072;
         public static int time=0x7f0b0056;
         public static int tipAmt=0x7f0b0071;
-        public static int tipHistoryListView=0x7f0b0069;
+        public static int tipHistoryListView=0x7f0b006a;
+        public static int tipHistoryTitle=0x7f0b0069;
         public static int title=0x7f0b002a;
         public static int title_template=0x7f0b002f;
+        public static int toolbar_title=0x7f0b006c;
         public static int topPanel=0x7f0b002e;
         public static int up=0x7f0b0008;
         public static int useLogo=0x7f0b0012;

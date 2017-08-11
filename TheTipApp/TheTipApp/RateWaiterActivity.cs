@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Views;
 using Android.Widget;
 using static Android.Widget.SeekBar;
 
@@ -46,6 +47,20 @@ namespace TheTipApp
             nextButtonCtrl.Enabled = true;
         }
 
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            var id = item.ItemId;
+
+            switch (id)
+            {
+                case Android.Resource.Id.Home:
+                    StartActivity(new Intent(this, typeof(MainActivity)));
+                    break;
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
         #region Setup
 
         private void Setup()
@@ -65,6 +80,8 @@ namespace TheTipApp
         private void SetupActionBar()
         {
             SetSupportActionBar(toolbarCtrl);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
         }
 
         #endregion Setup

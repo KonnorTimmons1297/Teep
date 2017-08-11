@@ -1435,34 +1435,37 @@ namespace TheTipApp
 			public const int abc_textfield_search_material = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int ic_action_content_create = 2130837573;
+			public const int Android = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int ic_action_content_save = 2130837574;
+			public const int ic_action_content_create = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int ic_add_white_18dp = 2130837575;
+			public const int ic_action_content_save = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int ic_close_white_24dp = 2130837576;
+			public const int ic_add_white_18dp = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int ic_menu_copy_holo_dark = 2130837577;
+			public const int ic_close_white_24dp = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int ic_menu_cut_holo_dark = 2130837578;
+			public const int ic_menu_copy_holo_dark = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ic_menu_paste_holo_dark = 2130837579;
+			public const int ic_menu_cut_holo_dark = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int ic_menu_search_holo_dark = 2130837580;
+			public const int ic_menu_paste_holo_dark = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int Icon = 2130837581;
+			public const int ic_menu_search_holo_dark = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int notification_template_icon_bg = 2130837582;
+			public const int Icon = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int notification_template_icon_bg = 2130837583;
 			
 			static Drawable()
 			{
@@ -1687,6 +1690,9 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0060
 			public const int rateWaiterBar = 2131427424;
 			
+			// aapt resource value: 0x7f0b005e
+			public const int rateWaiterTitle = 2131427422;
+			
 			// aapt resource value: 0x7f0b0066
 			public const int restaurantName = 2131427430;
 			
@@ -1794,9 +1800,6 @@ namespace TheTipApp
 			
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
-			
-			// aapt resource value: 0x7f0b005e
-			public const int textView1 = 2131427422;
 			
 			// aapt resource value: 0x7f0b0064
 			public const int ticketTotal = 2131427428;
