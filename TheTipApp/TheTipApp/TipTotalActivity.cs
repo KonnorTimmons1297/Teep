@@ -65,6 +65,8 @@ namespace TheTipApp
         {
             Intent nextActivity = new Intent(this, typeof(MainActivity));
 
+            Finish();
+
             StartActivity(nextActivity);
         }
 
@@ -100,6 +102,7 @@ namespace TheTipApp
         private void SetupActionBar()
         {
             SetSupportActionBar(toolbarCtrl);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
         }
         #endregion Setup
 

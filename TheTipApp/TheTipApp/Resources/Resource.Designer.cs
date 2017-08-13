@@ -1435,37 +1435,34 @@ namespace TheTipApp
 			public const int abc_textfield_search_material = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int Android = 2130837573;
+			public const int ic_action_content_create = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int ic_action_content_create = 2130837574;
+			public const int ic_action_content_save = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int ic_action_content_save = 2130837575;
+			public const int ic_add_white_18dp = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int ic_add_white_18dp = 2130837576;
+			public const int ic_close_white_24dp = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int ic_close_white_24dp = 2130837577;
+			public const int ic_menu_copy_holo_dark = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int ic_menu_copy_holo_dark = 2130837578;
+			public const int ic_menu_cut_holo_dark = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int ic_menu_cut_holo_dark = 2130837579;
+			public const int ic_menu_paste_holo_dark = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int ic_menu_paste_holo_dark = 2130837580;
+			public const int ic_menu_search_holo_dark = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_menu_search_holo_dark = 2130837581;
+			public const int Icon = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int Icon = 2130837582;
-			
-			// aapt resource value: 0x7f02004f
-			public const int notification_template_icon_bg = 2130837583;
+			public const int notification_template_icon_bg = 2130837582;
 			
 			static Drawable()
 			{
@@ -1480,11 +1477,11 @@ namespace TheTipApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0078
-			public const int DeleteTipEntry = 2131427448;
+			// aapt resource value: 0x7f0b007a
+			public const int DeleteTipEntry = 2131427450;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int EditTipEntry = 2131427447;
+			// aapt resource value: 0x7f0b0079
+			public const int EditTipEntry = 2131427449;
 			
 			// aapt resource value: 0x7f0b005d
 			public const int RaitWaiterToolbar = 2131427421;
@@ -1492,11 +1489,14 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0062
 			public const int RestaurantTotalToolbar = 2131427426;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int TipHistoryToolbar = 2131427432;
+			// aapt resource value: 0x7f0b0069
+			public const int TipHistoryToolbar = 2131427433;
 			
-			// aapt resource value: 0x7f0b0070
-			public const int TipTotalToolbar = 2131427440;
+			// aapt resource value: 0x7f0b0072
+			public const int TipTotalTitle = 2131427442;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int TipTotalToolbar = 2131427441;
 			
 			// aapt resource value: 0x7f0b0050
 			public const int action0 = 2131427408;
@@ -1558,8 +1558,8 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b002b
 			public const int buttonPanel = 2131427371;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int calcButton = 2131427431;
+			// aapt resource value: 0x7f0b0068
+			public const int calcButton = 2131427432;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int cancel_action = 2131427409;
@@ -1591,17 +1591,17 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0027
 			public const int default_activity_button = 2131427367;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int delete = 2131427446;
+			// aapt resource value: 0x7f0b0078
+			public const int delete = 2131427448;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int disableHome = 2131427340;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int doneButton = 2131427443;
-			
 			// aapt resource value: 0x7f0b0075
-			public const int edit = 2131427445;
+			public const int doneButton = 2131427445;
+			
+			// aapt resource value: 0x7f0b0077
+			public const int edit = 2131427447;
 			
 			// aapt resource value: 0x7f0b0043
 			public const int edit_query = 2131427395;
@@ -1651,8 +1651,8 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0053
 			public const int media_actions = 2131427411;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int menu_edit = 2131427444;
+			// aapt resource value: 0x7f0b0076
+			public const int menu_edit = 2131427446;
 			
 			// aapt resource value: 0x7f0b001a
 			public const int middle = 2131427354;
@@ -1681,8 +1681,8 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0006
 			public const int progress_horizontal = 2131427334;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int questTicketTextView = 2131427427;
+			// aapt resource value: 0x7f0b0064
+			public const int questTicketTextView = 2131427428;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int radio = 2131427387;
@@ -1693,11 +1693,14 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b005e
 			public const int rateWaiterTitle = 2131427422;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int restaurantName = 2131427430;
+			// aapt resource value: 0x7f0b0067
+			public const int restaurantName = 2131427431;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int restaurantNameTextView = 2131427429;
+			// aapt resource value: 0x7f0b0066
+			public const int restaurantNameTextView = 2131427430;
+			
+			// aapt resource value: 0x7f0b0063
+			public const int restaurantTotalTitle = 2131427427;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int screen = 2131427348;
@@ -1744,17 +1747,17 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b004f
 			public const int select_dialog_listview = 2131427407;
 			
+			// aapt resource value: 0x7f0b0070
+			public const int selectedTipTicketTotal = 2131427440;
+			
 			// aapt resource value: 0x7f0b006f
-			public const int selectedTipTicketTotal = 2131427439;
+			public const int selectedTipTipAmount = 2131427439;
+			
+			// aapt resource value: 0x7f0b006c
+			public const int selectedTipToolbar = 2131427436;
 			
 			// aapt resource value: 0x7f0b006e
-			public const int selectedTipTipAmount = 2131427438;
-			
-			// aapt resource value: 0x7f0b006b
-			public const int selectedTipToolbar = 2131427435;
-			
-			// aapt resource value: 0x7f0b006d
-			public const int selectedTipWaiterRating = 2131427437;
+			public const int selectedTipWaiterRating = 2131427438;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int shortcut = 2131427386;
@@ -1801,23 +1804,23 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b0034
 			public const int textSpacerNoButtons = 2131427380;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int ticketTotal = 2131427428;
+			// aapt resource value: 0x7f0b0065
+			public const int ticketTotal = 2131427429;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int ticketTotalAmt = 2131427442;
+			// aapt resource value: 0x7f0b0074
+			public const int ticketTotalAmt = 2131427444;
 			
 			// aapt resource value: 0x7f0b0056
 			public const int time = 2131427414;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int tipAmt = 2131427441;
+			// aapt resource value: 0x7f0b0073
+			public const int tipAmt = 2131427443;
+			
+			// aapt resource value: 0x7f0b006b
+			public const int tipHistoryListView = 2131427435;
 			
 			// aapt resource value: 0x7f0b006a
-			public const int tipHistoryListView = 2131427434;
-			
-			// aapt resource value: 0x7f0b0069
-			public const int tipHistoryTitle = 2131427433;
+			public const int tipHistoryTitle = 2131427434;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int title = 2131427370;
@@ -1825,8 +1828,8 @@ namespace TheTipApp
 			// aapt resource value: 0x7f0b002f
 			public const int title_template = 2131427375;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int toolbar_title = 2131427436;
+			// aapt resource value: 0x7f0b006d
+			public const int toolbar_title = 2131427437;
 			
 			// aapt resource value: 0x7f0b002e
 			public const int topPanel = 2131427374;

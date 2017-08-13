@@ -13,7 +13,7 @@ using Android.Graphics;
 
 namespace TheTipApp
 {
-    [Activity(Label = "TheTipApp", MainLauncher = true, Icon = "@drawable/Android", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
+    [Activity(Label = "TheTipApp", MainLauncher = true, Icon = "@drawable/icon", Theme = "@style/Theme.AppCompat.Light.NoActionBar")]
     public class MainActivity : AppCompatActivity
     {
         #region Needed Permissions

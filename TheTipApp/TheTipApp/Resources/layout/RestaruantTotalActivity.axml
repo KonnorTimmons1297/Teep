@@ -12,8 +12,15 @@
         android:background="@color/colorPrimary"
         android:theme="@style/ToolbarStyle"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_row="0" />
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/restaurantTotalTitle"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            android:layout_gravity="center" />
+    </android.support.v7.widget.Toolbar>
 <!--This is for the Toolbar Only-->
 <!--What is the Ticket Total? -->
     <TextView

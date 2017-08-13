@@ -77,6 +77,8 @@ namespace TheTipApp
         private void SetupActionBar()
         {
             SetSupportActionBar(toolbarCtrl);
+            SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
         }
 
         private void RetrieveWaiterRating()

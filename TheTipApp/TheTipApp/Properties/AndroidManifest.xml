@@ -3,5 +3,5 @@
 	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-	<application android:label="TheTipApp" android:theme="@style/MainApplicationStyle" android:icon="@drawable/Android" />
+	<application android:label="Teep" android:theme="@style/MainApplicationStyle" android:icon="@drawable/Icon" />
 </manifest>
