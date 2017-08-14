@@ -1,3 +1,7 @@
+TheTipApp.EditTipActivity, TheTipApp;md5e9d4fcfbcec371b7e353dfc05542b86d.EditTipActivity
+TheTipApp.EditTipActivity, TheTipApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e9d4fcfbcec371b7e353dfc05542b86d.EditTipActivity
+TheTipApp.EditTipActivity;md5e9d4fcfbcec371b7e353dfc05542b86d.EditTipActivity
+thetipapp.EditTipActivity;md5e9d4fcfbcec371b7e353dfc05542b86d.EditTipActivity
 TheTipApp.MainActivity, TheTipApp;md5e9d4fcfbcec371b7e353dfc05542b86d.MainActivity
 TheTipApp.MainActivity, TheTipApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e9d4fcfbcec371b7e353dfc05542b86d.MainActivity
 TheTipApp.MainActivity;md5e9d4fcfbcec371b7e353dfc05542b86d.MainActivity

@@ -34,10 +34,12 @@ namespace TheTipApp
         public override void OnAttachedToWindow()
         {
             base.OnAttachedToWindow();
-            SupportActionBar.SetDisplayShowTitleEnabled(false);
+            
+        }
 
-            TextView restTitle = (TextView)toolbarCtrl.FindViewById(Resource.Id.toolbar_title);
-            restTitle.Text = selectedTip.RestaurantName;
+        protected override void OnRestart() {
+            Setup();
+            base.OnRestart();
         }
 
         private void DisplayTipInformation()
@@ -57,10 +59,10 @@ namespace TheTipApp
         private void Setup()
         {
             GetUIControls();
-            SetupActionBar();
             SetupDataFile();
             SetupTipList();
             GetSelectedTip();
+            SetupActionBar();
         }
 
         private void GetUIControls()
@@ -91,6 +93,10 @@ namespace TheTipApp
         {
             SetSupportActionBar(toolbarCtrl);
             SupportActionBar.SetDisplayHomeAsUpEnabled(true);
+            SupportActionBar.SetDisplayShowTitleEnabled(false);
+
+            TextView restTitle = (TextView)toolbarCtrl.FindViewById(Resource.Id.toolbar_title);
+            restTitle.Text = selectedTip.RestaurantName;
         }
         #endregion Setup
 
@@ -113,7 +119,9 @@ namespace TheTipApp
                     StartActivity(new Intent(this, typeof(MainActivity)));
                     break;
                 case Resource.Id.EditTipEntry:
-                    Toast.MakeText(this, "Edit this tip...", ToastLength.Short).Show();
+                    Intent nextActivity = new Intent(this, typeof(EditTipActivity));
+                    nextActivity.PutExtra("tipIndex", Intent.GetIntExtra("selectedTipPosition", 0));
+                    StartActivity(nextActivity);
                     break;
                 case Android.Resource.Id.Home:
                     StartActivity(new Intent(this, typeof(MainActivity)));

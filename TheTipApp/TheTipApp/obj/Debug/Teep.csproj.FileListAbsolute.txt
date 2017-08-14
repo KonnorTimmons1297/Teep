@@ -66,3 +66,4 @@ C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-mdpi\icon.png
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-xhdpi\icon.png
 C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\konno\Desktop\Workbench\Programming\Teep\TheTipApp\TheTipApp\obj\Debug\res\layout\edittipactivity.xml
