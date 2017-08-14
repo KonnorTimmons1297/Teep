@@ -1,0 +1,1 @@
+<menu tools:context=".MainActivity" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"><item android:id="@+id/EditTipEntry" android:title="Edit" /><item android:id="@+id/DeleteTipEntry" android:title="Delete" /></menu>

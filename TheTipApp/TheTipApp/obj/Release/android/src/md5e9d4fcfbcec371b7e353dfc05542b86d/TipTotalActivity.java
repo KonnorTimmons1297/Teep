@@ -2,7 +2,7 @@ package md5e9d4fcfbcec371b7e353dfc05542b86d;
 
 
 public class TipTotalActivity
-	extends android.app.Activity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

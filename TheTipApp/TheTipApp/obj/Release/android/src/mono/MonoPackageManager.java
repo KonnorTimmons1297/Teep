@@ -100,6 +100,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "TheTipApp.dll" comes first in this list. */
 		"TheTipApp.dll",
 		"Newtonsoft.Json.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

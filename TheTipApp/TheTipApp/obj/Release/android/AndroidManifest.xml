@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TheTipApp.TheTipApp" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="25" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.konnor.teep" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="25" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="TheTipApp" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon">
-    <activity android:icon="@drawable/icon" android:label="TheTipApp" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.MainActivity">
+  <application android:label="Teep" android:theme="@style/MainApplicationStyle" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="EditTipActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.EditTipActivity" />
+    <activity android:icon="@drawable/icon" android:label="TheTipApp" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="RestaurantTotalActivity" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.RestaurantTotalActivity" />
-    <activity android:label="TipHistoryActivity" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.TipHistoryActivity" />
-    <activity android:label="TipTotalActivity" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.TipTotalActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TheTipApp.TheTipApp.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:label="RestaurantTotalActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.RestaurantTotalActivity" />
+    <activity android:label="RateWaiterActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.RateWaiterActivity" />
+    <activity android:label="TipSelectedActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.TipSelectedActivity" />
+    <activity android:label="TipTotalActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="md5e9d4fcfbcec371b7e353dfc05542b86d.TipTotalActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.konnor.teep.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
 </manifest>
