@@ -3,6 +3,7 @@ using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
 using Android.Text;
+using Android.Views;
 using Android.Widget;
 
 namespace TheTipApp
@@ -30,6 +31,21 @@ namespace TheTipApp
             restaurantNameCtrl.AfterTextChanged += EditText_TextChanged;
 
             calcButtonCtrl.Click += CalcButton_Click;
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    StartActivity(new Intent(this, typeof(RateWaiterActivity)));
+                    //OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
+                    Finish();
+                    break;
+            }
+
+            return base.OnOptionsItemSelected(item);
         }
 
         private void CalcButton_Click(object sender, System.EventArgs e)

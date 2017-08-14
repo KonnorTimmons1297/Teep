@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Views;
 using Android.Widget;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,19 @@ namespace TheTipApp
 
         }
 
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    StartActivity(new Intent(this, typeof(TipSelectedActivity)));
+                    //OverridePendingTransition(Resource.Animation.slide_left, Resource.Animation.slide_right);
+                    break;
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+
         private void SaveButton_Click(object sender, EventArgs e)
         {
             //Set Tip information
@@ -42,8 +56,8 @@ namespace TheTipApp
             var tipList = dataFile.Read();
 
             editTip.RestaurantName = editTipNameCtrl.Text;
-            editTip.TipAmt = (float)Convert.ToDecimal(editTipAmountCtrl.Text);
-            editTip.TicketTotal = (float)Convert.ToDecimal(editTipTicketTotalCtrl.Text);
+            editTip.TipAmt = (float)Convert.ToDecimal(String.Format("{0:C2}",editTipAmountCtrl.Text));
+            editTip.TicketTotal = (float)Convert.ToDecimal(String.Format("{0:C2}", editTipTicketTotalCtrl.Text));
 
             tipList[tipIndex] = editTip;
 

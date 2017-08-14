@@ -40,8 +40,7 @@
         android:layout_gravity="center_horizontal"
         android:gravity="center"
         android:height="50dp"
-        android:maxLines="1"
-        android:paddingTop="20dp" />
+        android:paddingTop="20dp"/>
 <!--What is the name of the Restaurant? -->
     <TextView
         android:text="Tip Amount"

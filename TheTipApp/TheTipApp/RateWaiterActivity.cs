@@ -38,6 +38,7 @@ namespace TheTipApp
             Intent nextActivity = new Intent(this, typeof(RestaurantTotalActivity));
             nextActivity.PutExtra("waiterRating", WaiterRating.ToString());
             StartActivity(nextActivity);
+            //OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
         }
 
         private void GetWaiterRating(object sender, ProgressChangedEventArgs e)
@@ -55,6 +56,7 @@ namespace TheTipApp
             {
                 case Android.Resource.Id.Home:
                     StartActivity(new Intent(this, typeof(MainActivity)));
+                    //OverridePendingTransition(Resource.Animation.slide_left, Resource.Animation.slide_right);
                     break;
             }
 

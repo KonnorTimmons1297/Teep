@@ -37,28 +37,26 @@ namespace TheTipApp
         {
             base.OnCreate(bundle);
 
-            SetContentView (Resource.Layout.TipHistoryActivity); //Set our view from the "TipHistoryActivity" layout resource
+            SetContentView (Resource.Layout.TipHistoryActivity);
             
-            Task newTask = TryGetStoragePermissions(); //Getting Storage Permissions from User.
+            Task newTask = TryGetStoragePermissions();
 
             Setup();
-
-            TipListViewCtrl.ItemClick += GetSelectedTip;
         }
 
-        private void GetSelectedTip(object sender, ItemClickEventArgs e)
+        private void ViewSelectedTip(object sender, ItemClickEventArgs e)
         {
             Tip SelectedTip = TipList[e.Position];
 
-            StartNextActivity(SelectedTip, e.Position);
+            ExamineSelectedTip(SelectedTip, e.Position);
         }
 
-        private void StartNextActivity(Tip selectedTip, int tipPosition)
+        private void ExamineSelectedTip(Tip selectedTip, int tipPosition)
         {
             Intent nextActivity = new Intent(this, typeof(TipSelectedActivity));
             nextActivity.PutExtra("selectedTipPosition", tipPosition);
             StartActivity(nextActivity);
-            OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
+            //OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
         }
 
         #region Setup
@@ -69,6 +67,7 @@ namespace TheTipApp
             SetupActionBar();
             SetupData();
             SetupTipAdapter();
+            TipListViewCtrl.ItemClick += ViewSelectedTip;
         }
 
         private void GetUIControls()
@@ -131,7 +130,7 @@ namespace TheTipApp
             Intent nextActivity = new Intent(this, typeof(RateWaiterActivity));
 
             StartActivity(nextActivity);
-            //OverridePendingTransition(Resource.Animation.slide_up, Resource.Animation.slide_down);
+            //OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
 
             return base.OnContextItemSelected(item);
         }

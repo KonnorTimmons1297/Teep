@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Android.App;
 using Android.Content;
 using Android.OS;
@@ -31,12 +32,6 @@ namespace TheTipApp
             DisplayTipInformation();
         }
 
-        public override void OnAttachedToWindow()
-        {
-            base.OnAttachedToWindow();
-            
-        }
-
         protected override void OnRestart() {
             Setup();
             base.OnRestart();
@@ -45,8 +40,8 @@ namespace TheTipApp
         private void DisplayTipInformation()
         {
             waiterRatingCtrl.Text = selectedTip.WaiterRating.ToString();
-            ticketTotalCtrl.Text = selectedTip.TicketTotal.ToString();
-            tipAmountCtrl.Text = selectedTip.TipAmt.ToString();
+            ticketTotalCtrl.Text = String.Format("{0:C2}", selectedTip.TicketTotal);
+            tipAmountCtrl.Text = String.Format("{0:C2}", selectedTip.TipAmt);
         }
 
         private void DeleteSelectedTip()
@@ -125,6 +120,7 @@ namespace TheTipApp
                     break;
                 case Android.Resource.Id.Home:
                     StartActivity(new Intent(this, typeof(MainActivity)));
+                    //OverridePendingTransition(Resource.Animation.slide_right, Resource.Animation.slide_left);
                     break;
             }
 
